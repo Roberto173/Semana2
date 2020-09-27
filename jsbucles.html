@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+
 <body>
     
-    
+
+  
 
 <script>
 
@@ -40,47 +43,130 @@
 
     for (let i = 10 ; i <= 20 ; i++) {
         console.log(i);
-        document.write('<br>');
+        console.log(' ');
     }*/
 
 
 
-    /*ejercicio 4 --- MAL ¿NUMERADOR?
+    /*ejercicio 4     
 
-    let valor = parseInt(window.prompt(`Introduzca un valor: `));
-    let numerador = parseInt(valor);
+    let suma = 0;
 
     for (let i = 1 ; i < 10 ; i++) {
         
         let valor = parseInt(window.prompt (`Introduzca un valor: `));
-        console.log (valor);
-        let media = parseInt (valor / i);
-        console.log (media);
-    }*/
+        suma = suma + valor;
+        }
 
+    let media = parseInt(suma / 10);
+    console.log(media);  */
 
+    
 
+    /* Ejercicio 5
 
-
-    let numero = parseInt(window.prompt(`Introduzca hasta qué numero quiere sumar: `));
-    let i = 0;
+    let numero;
     let suma = 0;
 
     do {
-        suma += i;
-        i++;
-        console.log (suma);
+        numero = parseInt(window.prompt(`Introduzca hasta qué numero quiere sumar: `));
+        for (let i = 1 ; i < 1 ; i++)  {
+            suma = suma + i;
+            console.log(suma);
+        }
+    }   
+    while (num !== 0);  */
+
+
+    /*  Ejercicio 6 
+
+    let factorial = 1 ;
+    let contador = 0 ;
+
+    for (let i = 1 ; i < 11 ; i++) {
+
+        factorial *= i;
+        contador = i;
+        console.log(`El factorial de ${contador}  es ${factorial}`);
+        console.log(" ");
+    }  */
+
+
+
+    /* ejercicio 7 --- MAL ---
+
+
+    let valor = parseInt(window.prompt(`Introduzca un valor:`));
+    let suma = 0;
+
+    if (valor < 0) {
+        console.log(`Los números negativos no se consideran`);
     }
-    while (numero = 0);
+    else if (valor > 0) {
+        do {
+        suma = suma + valor;
+        console.log(suma);
+        }
+    }
+
+*/
+
+
+    /*Ejercicio 8 --- MAL, MAL, MAL ---
+
+    let I;
+    let P;
+    let opcion = window.prompt(`Por favor, elija P o I:`);
+    console.log(opcion);
+    let impares;
+    let pares;
+    let c;
+    let d;
+
         
+        if (opcion === I) {
+           
+            for (let c = 1 ; c <= 100 ; c + 2); {
+            impares = c;
+            console.log (impares);
+            console.log (" ");
+            }
+        }   
+        else if (opcion === P) {
+
+        for (let d = 2 ; d <= 100 ; d + 2); {
+        pares = d;
+        console.log (pares);
+        console.log (" ");
+            }
+        }
+
+        else if (opcion !== P) {
+            window.alert(`Por favor, rescriba P o I`);
+        }
+
+        else if (opcion !== I) {
+            window.alert(`Por favor, reescriba P o I`);
+        } */
+
+
+        /* ejercicio 9 */
+
+        
+        let impar = 0;
+        let i = 0;
+        let cuadrado = 0;
+
+        for (let i = 1 ; i = 11 ; i + 2) {
+            impar = i;
+            console.log(impar);
+            cuadrado = impar * impar;
+            console.log(cuadrado);
+        }
 
 
 
-
-
-
-
-
+        
 </script>
 
 
